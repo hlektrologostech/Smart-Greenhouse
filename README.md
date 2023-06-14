@@ -13,7 +13,7 @@ ______
 
 ___
 
-![Εποπτικό Διαγραμμα του Συστήματος](/images/project_overview_1.jpg)
+![](images/topologia_1.png)
 
 ______
 
