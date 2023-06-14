@@ -93,13 +93,8 @@ _____
 ![](images/raspberry_OS_image.PNG)
 
 ### Εγκατάσταση to node red 
-<div style="position: relative; width: 100%; padding-bottom: 56,25%">
-<iframe src="https://www.youtube.com/embed/oLCSqbk-WOY" 
-        title="timelapse από το θερμοκήπιο του σχολείου" frameborder="0" allowfullscreen
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        style="position: absolute; width: 100%; height: 100%;">
-</iframe>
-</div>
+[![Watch the video](images/youtube_image1.jpg)](https://youtu.be/oLCSqbk-WOY)
+
 
 Σε συνεργασία με τα παιδιά και από παλαιότερη  ενασχόληση καταλήξαμε στο βασικό εργαλείο προγραμματισμού του συστήματος να είναι το  [node red ](https://nodered.org/)στο οποίο προχωρήσαμε σε εγκατάσταση σύμφωνα με τις [οδηγίες της επίσημης σελίδας του προγράμματος](https://nodered.org/docs/getting-started/raspberrypi). 
 
