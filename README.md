@@ -119,7 +119,7 @@ _____
 
 Οι δύο λόγοι που οδήγησαν να επιλέξουμε το [Tasmota ](https://tasmota.github.io/docs/)ως εργαλείο διαμορφώσεις του esp32 είναι αφενός το αρκετά μεγάλο πλήθος των αισθητήρων και των εξόδων του Controller,  και αφετέρου ο εύκολος τρόπος διαμόρφωσης, πού ήταν πολύ  φιλικότερο για τους μαθητές. Η σελίδα με την οποία κάναμε τη διαμόρφωση του esp32  είναι [Install Tasmota](https://tasmota.github.io/install/)  
 ![](images/esp32_tasmota.jpg)
-και το αρχείο με το configuration που χρησιμοποιήθηκε είναι το <a href="code/Tasmota%20config/Config_esp32.dmp" target="_blank">Config_esp32.dmp</a> στον καταλογο <a href="code/Tasmota%20config/" target="_blank">code/Tasmota config/</a>  .
+και το αρχείο με το configuration που χρησιμοποιήθηκε είναι το <a href="code/Tasmota%20config/Config_esp32.dmp" download="_blank">Config_esp32.dmp</a> στον καταλογο    <a href="https://github.com/hlektrologostech/Smart-Greenhouse/tree/main/code/Tasmota%20config" target="_blank">/code/Tasmota config</a>  .
 
 
 ## esp32 cam 
