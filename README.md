@@ -104,6 +104,8 @@ _____
 - [node-red-contrib-ui-time-scheduler 1.17.2](https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler/in/590bc13ff3a5f005c7d2189bbb563976)
 - [node-red-node-openweathermap 0.5.1](https://flows.nodered.org/node/node-red-node-openweathermap)
 
+Το πρόγραμμά σου σε .json μορφή βρίσκεται στο αρχείο <a href="code/Node_Red%20flows/flows%20(13).json" target="_blank">flows (13).json</a> στον κατάλογο <a href="code/Node_Red%20flows/flows%20(13).json" target="_blank">code/Node_Red flows/</a> σε design μορφή 
+
 
 ### Εγκατάσταση του MQTT broker 
 
@@ -117,7 +119,7 @@ _____
 
 Οι δύο λόγοι που οδήγησαν να επιλέξουμε το [Tasmota ](https://tasmota.github.io/docs/)ως εργαλείο διαμορφώσεις του esp32 είναι αφενός το αρκετά μεγάλο πλήθος των αισθητήρων και των εξόδων του Controller,  και αφετέρου ο εύκολος τρόπος διαμόρφωσης, πού ήταν πολύ  φιλικότερο για τους μαθητές. Η σελίδα με την οποία κάναμε τη διαμόρφωση του esp32  είναι [Install Tasmota](https://tasmota.github.io/install/)  
 ![](images/esp32_tasmota.jpg)
-και το αρχείο με το configuration που χρησιμοποιήθηκε είναι το ### στον καταλογο ### .
+και το αρχείο με το configuration που χρησιμοποιήθηκε είναι το <a href="code/Tasmota%20config/Config_esp32.dmp" target="_blank">Config_esp32.dmp</a> στον καταλογο <a href="code/Tasmota%20config/" target="_blank">code/Tasmota config/</a>  .
 
 
 ## esp32 cam 
@@ -125,7 +127,7 @@ _____
 
 ### Διαμόρφωση και προγραμματισμός to esp32 cam 
 
-Για τις ανάγκες του έργου χρησιμοποιήθηκαν δύο esp32 cam και ο προγραμματισμός τους έγινε μέσω to [Arduino IDE](https://www.arduino.cc/en/software) καθώς διαπιστώθηκε ότι κάλυπτε τις ανάγκες του έργου. Ο πηγαίος κώδικας βρίσκεται στο αρχείο ### στον κατάλογο ###. 
+Για τις ανάγκες του έργου χρησιμοποιήθηκαν δύο esp32 cam και ο προγραμματισμός τους έγινε μέσω to [Arduino IDE](https://www.arduino.cc/en/software) καθώς διαπιστώθηκε ότι κάλυπτε τις ανάγκες του έργου. Ο πηγαίος κώδικας βρίσκεται στο αρχείο <a href="code/Arduino%20IDE%20code/esp32-cam-webserver.zip" target="_blank">esp32-cam-webserver.zip</a> στον κατάλογο <a href="code/Arduino IDE code/" target="_blank">code/Arduino IDE code/</a>. 
 ![](images/esp32cam_config.jpg)
 
 ## Εργασίες διασύνδεσης και τροφοδοσίας 
@@ -133,7 +135,7 @@ _____
 
 ### Διασύνδεση του κυκλώματος ελέγχου 
 
-Ο σχεδιασμός για τις διασυνδέσεις του ελέγχου σχεδιάστηκε στο πρόγραμμα [Fritzing Portable ](https://sourceforge.net/projects/fritzing-portable/) εμπλουτίζοντας τις βιβλιοθήκες του προγράμματος με τα υλικά που χρησιμοποιήσαμε. Το αρχείο με το κύκλωμα δίνεται στο ###  στον κατάλογο ###  και η εικόνα του κυκλώματος στο παρακάτω σχήμα
+Ο σχεδιασμός για τις διασυνδέσεις του ελέγχου σχεδιάστηκε στο πρόγραμμα [Fritzing Portable ](https://sourceforge.net/projects/fritzing-portable/) εμπλουτίζοντας τις βιβλιοθήκες του προγράμματος με τα υλικά που χρησιμοποιήσαμε. Το αρχείο με το κύκλωμα δίνεται στο <a href="code/Fritzing/green003.fzz" target="_blank">green003.fzz</a> στον κατάλογο <a href="code/Fritzing/" target="_blank"> code/Fritzing/</a> και η εικόνα του κυκλώματος στο παρακάτω σχήμα
 ![](images/green003_bb2.jpg)
 
 ****
@@ -147,7 +149,7 @@ _____
 -  12 volt για τις ταινίες LED και τους ανεμιστήρες
 -  9 volt για την τροφοδοσία της ηλεκτροβάνας που ήταν απαραίτητη για το πότισμα
 ![](images/1_smart_greenhouse_επαλ_θήβας.jpg)
-Το βασικό κύκλωμα για τις τροφοδοσίες του συστήματος σχεδιάστηκε στο πρόγραμμα [QElectroTech ](https://qelectrotech.org/) παρουσιάζεται στην επόμενη εικόνα και το αρχείο ###  στον κατάλογο ###. 
+Το βασικό κύκλωμα για τις τροφοδοσίες του συστήματος σχεδιάστηκε στο πρόγραμμα [QElectroTech ](https://qelectrotech.org/) παρουσιάζεται στην επόμενη εικόνα και το αρχείο <a href="code/QElectroTech%20files/Smart%20greenhouse%20001.qet" target="_blank">Smart greenhouse 001.qet</a> στον κατάλογο <a href="code/QElectroTech%20files/" target="_blank">code/QElectroTech files/</a>. 
 
 
 ### Κατασκευή πρωτότυπων πλακετών

@@ -1,0 +1,2783 @@
+[
+    {
+        "id": "6a1eb0fac870d8df",
+        "type": "tab",
+        "label": "io logic",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "38acff13.d3606",
+        "type": "tab",
+        "label": "web_con",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "54d2b20797c9372e",
+        "type": "tab",
+        "label": "mesure_dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b6ced6d5.137c9",
+        "type": "group",
+        "z": "54d2b20797c9372e",
+        "name": "Switch",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c0a3bab.5bd1e48",
+            "f04e5649.39e428",
+            "7345f52c.34feb4",
+            "36ee14c0.68effc",
+            "1d15c663.aca6c2",
+            "b5998821.972a18",
+            "c77a85c4.f51ad8"
+        ],
+        "x": 114,
+        "y": 1019
+    },
+    {
+        "id": "5f87811e9325e5b0",
+        "type": "ui_group",
+        "name": "camera",
+        "tab": "f64ec36f4e617608",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f64ec36f4e617608",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5d47131ec813090f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Tahoma,Geneva,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "1ο ΕΠΑΛ Θηβών 2022-2023",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 1,
+                "py": 1
+            }
+        }
+    },
+    {
+        "id": "f51a0a92.f39cc8",
+        "type": "ui_group",
+        "name": "Ημέρα",
+        "tab": "b729edc1.88227",
+        "order": 4,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1819f01f.6941c",
+        "type": "ui_group",
+        "name": "θερμοκρασία",
+        "tab": "b729edc1.88227",
+        "order": 2,
+        "disp": true,
+        "width": 11,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8c4c1fe1.62278",
+        "type": "ui_group",
+        "name": "Υγρασία",
+        "tab": "b729edc1.88227",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b729edc1.88227",
+        "type": "ui_tab",
+        "name": "Internet values",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "464cf78dd1baaa99",
+        "type": "ui_group",
+        "name": "Πληροφορίες",
+        "tab": "b729edc1.88227",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a42a8e1cb0d744be",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "10.82.22.245",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d9c0a088fd138c6c",
+        "type": "ui_tab",
+        "name": "Πραγματικές μετρήσεις",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fe3fb0d1f43bc972",
+        "type": "ui_group",
+        "name": "Μετρήσεις περιβάλλοντος",
+        "tab": "d9c0a088fd138c6c",
+        "order": 1,
+        "disp": true,
+        "width": 11,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7c6233ca0b72f41e",
+        "type": "ui_group",
+        "name": "Μετρήσεις εδάφους",
+        "tab": "d9c0a088fd138c6c",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "826f5a2aab487c93",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2027326d5677b457",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "af520c5cbef9cf34",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1e83fea348be5593",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e8a55bbd27688754",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fc790df5ad8dd9bc",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bad2119ec5aff526",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3b2c04f25857a00f",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0bbfdd7cd309db5f",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "464cf78dd1baaa99",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bc69fa1ce5db1f5f",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 1,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "5d3bcfff6a7290cf",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 3,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "fcdb7a40cc50d3d8",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 5,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "a272ef6789091e69",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 7,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "06aaed8fbc59e62e",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 8,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "0e737d28f87ee40d",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 9,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "53473a297a414d46",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 10,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "47da9045ff9dd41b",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 11,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "f2a8fd6f4ac3cefe",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 12,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "162d31e80714bea5",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 13,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "789cc9e28626c3aa",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "fe3fb0d1f43bc972",
+        "order": 14,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "e02a5b4854c79be9",
+        "type": "ui_spacer",
+        "z": "54d2b20797c9372e",
+        "name": "spacer",
+        "group": "7c6233ca0b72f41e",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "41412b6a.6de50c",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "b13ac5aa.7eca6",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c3912b7d.aaa93",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "b13ac5aa.7eca6",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b13ac5aa.7eca6",
+        "type": "ui_tab",
+        "name": "Switch",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1bbc7106.d6d1cf",
+        "type": "file",
+        "z": "6a1eb0fac870d8df",
+        "name": "Salva immagine catturata",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 850,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8665e2d5.facf8",
+        "type": "function",
+        "z": "6a1eb0fac870d8df",
+        "name": "Impostazione dir + nome immagine",
+        "func": "// Prepara il MSG per creare il nome del file dell'immagine da salvare\n// impostando la dir e un nome univoco  usando il 'timestamp'\n// passato con msg.stamp\n\n//msg={payload:msg.payload,filename:\"/home/pi/captured1/\"+ msg.stamp+\".jpg\",stamp:msg.stamp};\n//return msg;\n\nvar d=new Date();\nvar day=d.getDate()  //day as a number 1 -31\nvar weekday=d.getDay()  //-weekday as a number  0-6\nvar month=d.getMonth() // month as a number 0-11\nvar year=d.getFullYear() //year as a four digit number (yyyy)\nvar hours=d.getHours() //the hour (0-23)\nvar minutes=d.getMinutes() //-the minute (0-59)\nvar seconds=d.getSeconds() //-the seconds (0-59)\nvar milliseconds=d.getMilliseconds() // the miliseconds \nif(day<=9)\nday=\"0\"+day;\nif(month<=9)\nmonth=\"0\"+(month+1);\nif(hours<=9)\nhours=\"0\"+(hours);\nif(minutes<=9)\nminutes=\"0\"+(minutes);\nif(seconds<=9)\nseconds=\"0\"+(seconds);\n\n\nvar date_out= year+\" \"+month+\" \"+day+\" \"+hours+\" \"+minutes+\" \"+seconds;\nmsg={payload:msg.payload,filename:\"/home/pi/captured1/\"+date_out+\".jpg\",stamp:msg.stamp};\nreturn msg;\n\n/*\nvar d=new Date(year);\nmsg={payload:msg.payload,filename:\"/home/pi/captured1/\"+d+\".jpg\",stamp:msg.stamp};\nreturn msg;\n*/ \n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 140,
+        "wires": [
+            [
+                "1bbc7106.d6d1cf"
+            ]
+        ]
+    },
+    {
+        "id": "686db6bc.1c8b18",
+        "type": "change",
+        "z": "6a1eb0fac870d8df",
+        "name": "SET Timestamp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "stamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 140,
+        "wires": [
+            [
+                "8665e2d5.facf8"
+            ]
+        ]
+    },
+    {
+        "id": "85738e169ef5376e",
+        "type": "inject",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 120,
+        "wires": [
+            [
+                "b6d76fd.088759"
+            ]
+        ]
+    },
+    {
+        "id": "b6d76fd.088759",
+        "type": "http request",
+        "z": "6a1eb0fac870d8df",
+        "name": "42 captured 1",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "http://10.82.22.42/capture",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [],
+        "x": 420,
+        "y": 140,
+        "wires": [
+            [
+                "686db6bc.1c8b18"
+            ]
+        ],
+        "icon": "font-awesome/fa-video-camera"
+    },
+    {
+        "id": "5ce8e02f48783cf0",
+        "type": "trigger",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "op1": "",
+        "op2": "1",
+        "op1type": "date",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "min",
+        "reset": "false",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 290,
+        "y": 240,
+        "wires": [
+            [
+                "b6d76fd.088759",
+                "cc460ec0237fbebc"
+            ]
+        ]
+    },
+    {
+        "id": "10b6523a4e2d1f83",
+        "type": "ui_switch",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "label": "UP Camera Enable",
+        "tooltip": "",
+        "group": "5f87811e9325e5b0",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "5ce8e02f48783cf0"
+            ]
+        ]
+    },
+    {
+        "id": "ebf8e14499e8278b",
+        "type": "file",
+        "z": "6a1eb0fac870d8df",
+        "name": "Salva immagine catturata",
+        "filename": "",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 810,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e25171866bf85dd6",
+        "type": "function",
+        "z": "6a1eb0fac870d8df",
+        "name": "Impostazione dir + nome immagine",
+        "func": "// Prepara il MSG per creare il nome del file dell'immagine da salvare\n// impostando la dir e un nome univoco  usando il 'timestamp'\n// passato con msg.stamp\n\n//msg={payload:msg.payload,filename:\"/home/pi/captured1/\"+ msg.stamp+\".jpg\",stamp:msg.stamp};\n//return msg;\n\nvar d=new Date();\nvar day=d.getDate()  //day as a number 1 -31\nvar weekday=d.getDay()  //-weekday as a number  0-6\nvar month=d.getMonth() // month as a number 0-11\nvar year=d.getFullYear() //year as a four digit number (yyyy)\nvar hours=d.getHours() //the hour (0-23)\nvar minutes=d.getMinutes() //-the minute (0-59)\nvar seconds=d.getSeconds() //-the seconds (0-59)\nvar milliseconds=d.getMilliseconds() // the miliseconds \nif(day<=9)\nday=\"0\"+day;\nif(month<=9)\nmonth=\"0\"+(month+1);\nif(hours<=9)\nhours=\"0\"+(hours);\nif(minutes<=9)\nminutes=\"0\"+(minutes);\nif(seconds<=9)\nseconds=\"0\"+(seconds);\n\n\nvar date_out= year+\" \"+month+\" \"+day+\" \"+hours+\" \"+minutes+\" \"+seconds;\nmsg={payload:msg.payload,filename:\"/home/pi/captured2/\"+date_out+\".jpg\",stamp:msg.stamp};\nreturn msg;\n\n/*\nvar d=new Date(year);\nmsg={payload:msg.payload,filename:\"/home/pi/captured1/\"+d+\".jpg\",stamp:msg.stamp};\nreturn msg;\n*/ \n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 360,
+        "wires": [
+            [
+                "ebf8e14499e8278b"
+            ]
+        ]
+    },
+    {
+        "id": "210ffc85679a66b3",
+        "type": "change",
+        "z": "6a1eb0fac870d8df",
+        "name": "SET Timestamp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "stamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 360,
+        "wires": [
+            [
+                "e25171866bf85dd6"
+            ]
+        ]
+    },
+    {
+        "id": "e716068e338fc8a6",
+        "type": "inject",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 340,
+        "wires": [
+            [
+                "878b5637901022ef"
+            ]
+        ]
+    },
+    {
+        "id": "878b5637901022ef",
+        "type": "http request",
+        "z": "6a1eb0fac870d8df",
+        "name": "49 captured 2",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "http://10.82.22.49/capture",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [],
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [
+                "210ffc85679a66b3"
+            ]
+        ],
+        "icon": "font-awesome/fa-video-camera"
+    },
+    {
+        "id": "737a72ec59b3d3d3",
+        "type": "trigger",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "op1": "",
+        "op2": "1",
+        "op1type": "date",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "min",
+        "reset": "false",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 250,
+        "y": 460,
+        "wires": [
+            [
+                "878b5637901022ef",
+                "dd2479d18feb42e7"
+            ]
+        ]
+    },
+    {
+        "id": "dbb03d9f8ead1049",
+        "type": "ui_switch",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "label": "DOWN Camera Enable",
+        "tooltip": "",
+        "group": "5f87811e9325e5b0",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 150,
+        "y": 400,
+        "wires": [
+            [
+                "737a72ec59b3d3d3"
+            ]
+        ]
+    },
+    {
+        "id": "cc460ec0237fbebc",
+        "type": "debug",
+        "z": "6a1eb0fac870d8df",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "dd2479d18feb42e7",
+        "type": "debug",
+        "z": "6a1eb0fac870d8df",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b269fb346bfe1d79",
+        "type": "mqtt out",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "topic": "cmnd/green/POWER1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a42a8e1cb0d744be",
+        "x": 820,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "619a52955916290e",
+        "type": "mqtt out",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "topic": "cmnd/green/POWER2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a42a8e1cb0d744be",
+        "x": 880,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "8c2ff9a02a7e4f9f",
+        "type": "ui_switch",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "label": "Light1",
+        "tooltip": "",
+        "group": "5f87811e9325e5b0",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 370,
+        "y": 560,
+        "wires": [
+            [
+                "b269fb346bfe1d79"
+            ]
+        ]
+    },
+    {
+        "id": "77e2bb40c8f131b8",
+        "type": "ui_switch",
+        "z": "6a1eb0fac870d8df",
+        "name": "",
+        "label": "Light2",
+        "tooltip": "",
+        "group": "5f87811e9325e5b0",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 390,
+        "y": 660,
+        "wires": [
+            [
+                "619a52955916290e"
+            ]
+        ]
+    },
+    {
+        "id": "542c33281b76d59e",
+        "type": "ui_time_scheduler",
+        "z": "6a1eb0fac870d8df",
+        "group": "5f87811e9325e5b0",
+        "name": "",
+        "startDay": 0,
+        "refresh": 60,
+        "devices": [
+            "Device 1"
+        ],
+        "singleOff": false,
+        "onlySendChange": false,
+        "customPayload": false,
+        "eventMode": false,
+        "eventOptions": [],
+        "sendTopic": false,
+        "lat": "",
+        "lon": "",
+        "customContextStore": "",
+        "outputs": 2,
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "x": 310,
+        "y": 760,
+        "wires": [
+            [],
+            [
+                "b269fb346bfe1d79",
+                "619a52955916290e"
+            ]
+        ]
+    },
+    {
+        "id": "b3ccc0d0.b8916",
+        "type": "debug",
+        "z": "38acff13.d3606",
+        "name": "openweather debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 240,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "33beb6a1.e9d1da",
+        "type": "ui_gauge",
+        "z": "38acff13.d3606",
+        "name": "Υγρασία",
+        "group": "8c4c1fe1.62278",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "Υγρασία",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "70",
+        "colors": [
+            "#6ab3f3",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "60",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "984e914f.e6e1a",
+        "type": "ui_gauge",
+        "z": "38acff13.d3606",
+        "name": "Θερμοκρασία",
+        "group": "1819f01f.6941c",
+        "order": 1,
+        "width": "6",
+        "height": "5",
+        "gtype": "donut",
+        "title": "Θερμοκρασία",
+        "label": "c",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "80",
+        "colors": [
+            "#0041f7",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "10",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 560,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "43b41361.ead70c",
+        "type": "openweathermap in",
+        "z": "38acff13.d3606",
+        "name": "",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Thebes",
+        "country": "GR",
+        "language": "el",
+        "x": 70,
+        "y": 280,
+        "wires": [
+            [
+                "b3ccc0d0.b8916",
+                "371eb133be1736a5",
+                "17a62614d3947f77",
+                "366c74e0381a6c12",
+                "297c27d7433db868",
+                "061640be5c9ffb33",
+                "082249a3889c2e54",
+                "4f3d6f0649b7ef66",
+                "2d5ad825968ab002"
+            ]
+        ]
+    },
+    {
+        "id": "80d786134eae9ebf",
+        "type": "ui_chart",
+        "z": "38acff13.d3606",
+        "name": "Θερμοκρασία",
+        "group": "1819f01f.6941c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Θερμοκρασία",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 780,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f0ac0d627e742548",
+        "type": "ui_chart",
+        "z": "38acff13.d3606",
+        "name": "Υγρασία",
+        "group": "8c4c1fe1.62278",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Υγρασία",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 780,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f750f0c5048df525",
+        "type": "ui_text",
+        "z": "38acff13.d3606",
+        "group": "464cf78dd1baaa99",
+        "order": 1,
+        "width": 4,
+        "height": 9,
+        "name": "",
+        "label": "Όλες οι τιμές που παρουσιάζονται στην παρούσα σελίδα δεν είναι βασισμένες σε αισθητήρες αλλά σε ερωτήματα που κάνει το σύστημα στο Internet με σκοπό να ελέγξουμε τους αισθητήρες του συστήματος.",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 730,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "5636343f3688c574",
+        "type": "ui_text",
+        "z": "38acff13.d3606",
+        "group": "f51a0a92.f39cc8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Ταχύτητα ανέμου ",
+        "label": "Ταχύτητα ανέμου : ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 590,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "371eb133be1736a5",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "Ταχύτητα ανέμου ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.windspeed",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 560,
+        "wires": [
+            [
+                "5636343f3688c574"
+            ]
+        ]
+    },
+    {
+        "id": "17a62614d3947f77",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempc",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 220,
+        "wires": [
+            [
+                "984e914f.e6e1a",
+                "80d786134eae9ebf"
+            ]
+        ]
+    },
+    {
+        "id": "3994be022f30fd7b",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempc",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "366c74e0381a6c12",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.humidity",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 300,
+        "wires": [
+            [
+                "33beb6a1.e9d1da",
+                "f0ac0d627e742548"
+            ]
+        ]
+    },
+    {
+        "id": "297c27d7433db868",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.sunrise",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 360,
+        "wires": [
+            [
+                "8a4729eb3001f36c"
+            ]
+        ]
+    },
+    {
+        "id": "42733ca7cf8d1292",
+        "type": "ui_text",
+        "z": "38acff13.d3606",
+        "group": "f51a0a92.f39cc8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Ανατολή ηλίου",
+        "label": "Ανατολή ηλίου : ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 800,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "061640be5c9ffb33",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "Δύση ηλίου",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.sunset",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 440,
+        "wires": [
+            [
+                "f034125a2cd56f7d"
+            ]
+        ]
+    },
+    {
+        "id": "fc39218bfe0ef6c1",
+        "type": "ui_text",
+        "z": "38acff13.d3606",
+        "group": "f51a0a92.f39cc8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Δύση ηλίου",
+        "label": "Δύση ηλίου : ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 770,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "082249a3889c2e54",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "Λεπτομέρειες",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.detail",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 520,
+        "wires": [
+            [
+                "42e7131919568369"
+            ]
+        ]
+    },
+    {
+        "id": "42e7131919568369",
+        "type": "ui_text",
+        "z": "38acff13.d3606",
+        "group": "f51a0a92.f39cc8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Λεπτομέρειες",
+        "label": "Λεπτομέρειες",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 590,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "4f3d6f0649b7ef66",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "Κατεύθυνση ανέμου",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.winddirection",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 620,
+        "wires": [
+            [
+                "8de83b823d2908c9"
+            ]
+        ]
+    },
+    {
+        "id": "8de83b823d2908c9",
+        "type": "ui_text",
+        "z": "38acff13.d3606",
+        "group": "f51a0a92.f39cc8",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "Κατεύθυνση ανέμου",
+        "label": "Κατεύθυνση ανέμου : ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 600,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "2d5ad825968ab002",
+        "type": "change",
+        "z": "38acff13.d3606",
+        "name": "Καιρός",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.weather",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 480,
+        "wires": [
+            [
+                "288e98b5ef8745af"
+            ]
+        ]
+    },
+    {
+        "id": "288e98b5ef8745af",
+        "type": "ui_text",
+        "z": "38acff13.d3606",
+        "group": "f51a0a92.f39cc8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Καιρός",
+        "label": "Καιρός : ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 590,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8a4729eb3001f36c",
+        "type": "function",
+        "z": "38acff13.d3606",
+        "name": "msToHourStr",
+        "func": "var hourStr = (new Date(msg.payload*1000)).toLocaleTimeString('he-IL', { hour12: false, timeZone: 'Asia/Jerusalem' });\nvar newMsg = {payload: hourStr};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 570,
+        "y": 280,
+        "wires": [
+            [
+                "42733ca7cf8d1292"
+            ]
+        ]
+    },
+    {
+        "id": "f034125a2cd56f7d",
+        "type": "function",
+        "z": "38acff13.d3606",
+        "name": "msToHourStr",
+        "func": "var hourStr = (new Date(msg.payload*1000)).toLocaleTimeString('he-IL', { hour12: false, timeZone: 'Asia/Jerusalem' });\nvar newMsg = {payload: hourStr};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 570,
+        "y": 340,
+        "wires": [
+            [
+                "fc39218bfe0ef6c1"
+            ]
+        ]
+    },
+    {
+        "id": "80306065ba559849",
+        "type": "mqtt in",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "topic": "tele/green/SENSOR",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a42a8e1cb0d744be",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 300,
+        "wires": [
+            [
+                "6de112cb213d9fc4",
+                "cc0949973ae5c3f6",
+                "10f52fd7267b3565",
+                "05eca9690d3e1e1f",
+                "45d929c505748326",
+                "29d95e7f9d736cc4",
+                "43c861343c91e2bb"
+            ]
+        ]
+    },
+    {
+        "id": "29d95e7f9d736cc4",
+        "type": "debug",
+        "z": "54d2b20797c9372e",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6de112cb213d9fc4",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "Μετρητής νερού",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.COUNTER.C1/7",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 680,
+        "wires": [
+            [
+                "04de420cadf90e58"
+            ]
+        ]
+    },
+    {
+        "id": "45d929c505748326",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "Φως change",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.ANALOG.A1/41, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 380,
+        "wires": [
+            [
+                "5dd829d7547370b4",
+                "e1940bf937aaf6bb",
+                "bdd245b5500cf650"
+            ]
+        ]
+    },
+    {
+        "id": "cc0949973ae5c3f6",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "Θερμοκρασία",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DHT11.Temperature",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 440,
+        "wires": [
+            [
+                "db1c0889cbd09514"
+            ]
+        ]
+    },
+    {
+        "id": "04de420cadf90e58",
+        "type": "ui_text",
+        "z": "54d2b20797c9372e",
+        "group": "7c6233ca0b72f41e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Μετρητής νερού",
+        "label": "Μετρητής νερού  :  ",
+        "format": "{{msg.payload.toFixed(2) + \"  lt\"}} ",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1080,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "9865ae2e8e92aa85",
+        "type": "comment",
+        "z": "54d2b20797c9372e",
+        "name": "Επικοινωνία με το κοντρόλερ και ανάγνωση όλων των αναλογικών τιμών",
+        "info": "",
+        "x": 410,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "10f52fd7267b3565",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "Υγρασία",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DHT11.Humidity",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 480,
+        "wires": [
+            [
+                "9ef257f1bd1e3c84"
+            ]
+        ]
+    },
+    {
+        "id": "05eca9690d3e1e1f",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "Σημείο δρόσου",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DHT11.DewPoint",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 520,
+        "wires": [
+            [
+                "1636b54590dd4577"
+            ]
+        ]
+    },
+    {
+        "id": "43c861343c91e2bb",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "Υγρασία εδάφους",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(payload.ANALOG.A2/41, 2)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 720,
+        "wires": [
+            [
+                "9ddbfd3e7064ba63"
+            ]
+        ]
+    },
+    {
+        "id": "1636b54590dd4577",
+        "type": "ui_text",
+        "z": "54d2b20797c9372e",
+        "group": "fe3fb0d1f43bc972",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Σημείο δρόσου",
+        "label": "Σημείο δρόσου :   ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 980,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "bd6883cfd4355505",
+        "type": "comment",
+        "z": "54d2b20797c9372e",
+        "name": "Μετρήσεις περιβάλλοντος",
+        "info": "",
+        "x": 530,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7508251bd8a986c7",
+        "type": "comment",
+        "z": "54d2b20797c9372e",
+        "name": "Μετρήσεις εδάφους",
+        "info": "",
+        "x": 610,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "5dd829d7547370b4",
+        "type": "ui_gauge",
+        "z": "54d2b20797c9372e",
+        "name": "Φώς",
+        "group": "fe3fb0d1f43bc972",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Ποσότητα φωτός",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 400,
+        "wires": [],
+        "info": "tvvvvvvvsdfvsf"
+    },
+    {
+        "id": "db1c0889cbd09514",
+        "type": "ui_gauge",
+        "z": "54d2b20797c9372e",
+        "name": "Θερμοκρασία",
+        "group": "fe3fb0d1f43bc972",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Θερμοκρασία",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "15",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 980,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "9ef257f1bd1e3c84",
+        "type": "ui_gauge",
+        "z": "54d2b20797c9372e",
+        "name": "Υγρασία",
+        "group": "fe3fb0d1f43bc972",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 960,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "9ddbfd3e7064ba63",
+        "type": "ui_gauge",
+        "z": "54d2b20797c9372e",
+        "name": "Υγρασία εδάφους",
+        "group": "7c6233ca0b72f41e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "100",
+        "max": "0",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "90",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 1050,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "7a0c7d085a653787",
+        "type": "ui_button",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "group": "7c6233ca0b72f41e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Μηδενισμός του μετρητή νερού",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "8eb8d27e64f49295"
+            ]
+        ]
+    },
+    {
+        "id": "8eb8d27e64f49295",
+        "type": "mqtt out",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "topic": "cmnd/green/SENSOR/COUNTER",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a42a8e1cb0d744be",
+        "x": 1080,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "1763c657f940a361",
+        "type": "mqtt in",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "topic": "stat/green/POWER1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a42a8e1cb0d744be",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 370,
+        "y": 960,
+        "wires": [
+            [
+                "a124a8eafe65c365"
+            ]
+        ]
+    },
+    {
+        "id": "a124a8eafe65c365",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c0a3bab.5bd1e48",
+        "type": "ui_switch",
+        "z": "54d2b20797c9372e",
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "label": "Switch",
+        "tooltip": "",
+        "group": "41412b6a.6de50c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 690,
+        "y": 1060,
+        "wires": [
+            [
+                "f04e5649.39e428"
+            ]
+        ]
+    },
+    {
+        "id": "f04e5649.39e428",
+        "type": "debug",
+        "z": "54d2b20797c9372e",
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "7345f52c.34feb4",
+        "type": "ui_button",
+        "z": "54d2b20797c9372e",
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "group": "c3912b7d.aaa93",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Enable Button",
+        "tooltip": "",
+        "color": "green",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "settings",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1060,
+        "wires": [
+            [
+                "1d15c663.aca6c2"
+            ]
+        ]
+    },
+    {
+        "id": "36ee14c0.68effc",
+        "type": "ui_button",
+        "z": "54d2b20797c9372e",
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "group": "c3912b7d.aaa93",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Disable Button",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "settings",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1100,
+        "wires": [
+            [
+                "1d15c663.aca6c2"
+            ]
+        ]
+    },
+    {
+        "id": "1d15c663.aca6c2",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1060,
+        "wires": [
+            [
+                "c0a3bab.5bd1e48"
+            ]
+        ]
+    },
+    {
+        "id": "b5998821.972a18",
+        "type": "ui_button",
+        "z": "54d2b20797c9372e",
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "group": "c3912b7d.aaa93",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Set State True",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 1100,
+        "wires": [
+            [
+                "c0a3bab.5bd1e48"
+            ]
+        ]
+    },
+    {
+        "id": "c77a85c4.f51ad8",
+        "type": "ui_button",
+        "z": "54d2b20797c9372e",
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "group": "c3912b7d.aaa93",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Set State False",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 1140,
+        "wires": [
+            [
+                "c0a3bab.5bd1e48"
+            ]
+        ]
+    },
+    {
+        "id": "a63e809bf77a7a44",
+        "type": "inject",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dadc1b71baf73fdb",
+        "type": "ui_switch",
+        "z": "54d2b20797c9372e",
+        "name": "enable",
+        "label": "enable",
+        "tooltip": "",
+        "group": "5f87811e9325e5b0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 170,
+        "y": 1460,
+        "wires": [
+            [
+                "7b2b98eb5910c5b8"
+            ]
+        ]
+    },
+    {
+        "id": "7b2b98eb5910c5b8",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 1460,
+        "wires": [
+            [
+                "805d2de5bac13411"
+            ]
+        ]
+    },
+    {
+        "id": "bad3278b513cf489",
+        "type": "debug",
+        "z": "54d2b20797c9372e",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "a977ed17dd2a5076",
+        "type": "mqtt in",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "topic": "stat/green/POWER2",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a42a8e1cb0d744be",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 1360,
+        "wires": [
+            [
+                "bad3278b513cf489",
+                "805d2de5bac13411"
+            ]
+        ]
+    },
+    {
+        "id": "eda61a61e6e74fc5",
+        "type": "mqtt out",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "topic": "cmnd/green/POWER2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a42a8e1cb0d744be",
+        "x": 940,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "805d2de5bac13411",
+        "type": "ui_switch",
+        "z": "54d2b20797c9372e",
+        "name": "alll",
+        "label": "alll",
+        "tooltip": "",
+        "group": "5f87811e9325e5b0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "stat/green/POWER2",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 670,
+        "y": 1460,
+        "wires": [
+            [
+                "eda61a61e6e74fc5"
+            ]
+        ]
+    },
+    {
+        "id": "e1940bf937aaf6bb",
+        "type": "switch",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "1000",
+                "vt": "num",
+                "v2": "2000",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 750,
+        "y": 300,
+        "wires": [
+            [
+                "e95b75a97b9189d2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e95b75a97b9189d2",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "num",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bdd245b5500cf650",
+        "type": "function",
+        "z": "54d2b20797c9372e",
+        "name": "function 1",
+        "func": "if (msg.payload < 30 ) msg.payload=true; \nelse msg.payload=false;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e754c7b759db9c85",
+        "type": "delay",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 120,
+        "wires": [
+            [
+                "4e8be4cbdd1bf2af"
+            ]
+        ]
+    },
+    {
+        "id": "c5684b465acb4f9b",
+        "type": "inject",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "e754c7b759db9c85"
+            ]
+        ]
+    },
+    {
+        "id": "4e8be4cbdd1bf2af",
+        "type": "debug",
+        "z": "54d2b20797c9372e",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "946b4a40c7fe8618",
+        "type": "mqtt out",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "topic": "cmnd/green/POWER5",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a42a8e1cb0d744be",
+        "x": 920,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "1e0b05db68ef0961",
+        "type": "mqtt out",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "topic": "cmnd/green/POWER6",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a42a8e1cb0d744be",
+        "x": 900,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "e02bdc3a6c347b16",
+        "type": "ui_switch",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "label": "Run",
+        "tooltip": "",
+        "group": "5f87811e9325e5b0",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 630,
+        "y": 1260,
+        "wires": [
+            [
+                "946b4a40c7fe8618"
+            ]
+        ]
+    },
+    {
+        "id": "c9ada09aad908c12",
+        "type": "ui_switch",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "label": "Stop",
+        "tooltip": "",
+        "group": "5f87811e9325e5b0",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 630,
+        "y": 1320,
+        "wires": [
+            [
+                "1e0b05db68ef0961"
+            ]
+        ]
+    },
+    {
+        "id": "61610ba8f067baa8",
+        "type": "change",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1456c18a1225643",
+        "type": "open",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "target": "http://10.82.22.50/",
+        "app": "apps.chrome",
+        "wait": false,
+        "urlencode": false,
+        "x": 550,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2b676e2e616f91d",
+        "type": "ui_button",
+        "z": "54d2b20797c9372e",
+        "name": "",
+        "group": "5f87811e9325e5b0",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "open",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 1640,
+        "wires": [
+            [
+                "a1456c18a1225643"
+            ]
+        ]
+    }
+]
