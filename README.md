@@ -104,7 +104,7 @@ _____
 - [node-red-contrib-ui-time-scheduler 1.17.2](https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler/in/590bc13ff3a5f005c7d2189bbb563976)
 - [node-red-node-openweathermap 0.5.1](https://flows.nodered.org/node/node-red-node-openweathermap)
 
-Το πρόγραμμά σου σε .json μορφή βρίσκεται στο αρχείο <a href="code/Node_Red%20flows/flows%20(13).json" target="_blank">flows (13).json</a> στον κατάλογο <a href="code/Node_Red%20flows/flows%20(13).json" target="_blank">code/Node_Red flows/</a> σε design μορφή 
+Το πρόγραμμά σου σε .json μορφή βρίσκεται στο αρχείο <a href="code/Node_Red%20flows/flows%20(13).json" target="_blank">flows (13).json</a> στον κατάλογο <a href="https://github.com/hlektrologostech/Smart-Greenhouse/tree/main/code/Node_Red%20flows" target="_blank">/code/Node_Red flows</a> σε design μορφή 
 
 
 ### Εγκατάσταση του MQTT broker 
@@ -127,7 +127,7 @@ _____
 
 ### Διαμόρφωση και προγραμματισμός to esp32 cam 
 
-Για τις ανάγκες του έργου χρησιμοποιήθηκαν δύο esp32 cam και ο προγραμματισμός τους έγινε μέσω to [Arduino IDE](https://www.arduino.cc/en/software) καθώς διαπιστώθηκε ότι κάλυπτε τις ανάγκες του έργου. Ο πηγαίος κώδικας βρίσκεται στο αρχείο <a href="code/Arduino%20IDE%20code/esp32-cam-webserver.zip" target="_blank">esp32-cam-webserver.zip</a> στον κατάλογο <a href="code/Arduino IDE code/" target="_blank">code/Arduino IDE code/</a>. 
+Για τις ανάγκες του έργου χρησιμοποιήθηκαν δύο esp32 cam και ο προγραμματισμός τους έγινε μέσω to [Arduino IDE](https://www.arduino.cc/en/software) καθώς διαπιστώθηκε ότι κάλυπτε τις ανάγκες του έργου. Ο πηγαίος κώδικας βρίσκεται στο αρχείο <a href="code/Arduino%20IDE%20code/esp32-cam-webserver.zip" download="_blank">esp32-cam-webserver.zip</a> στον κατάλογο <a href="https://github.com/hlektrologostech/Smart-Greenhouse/tree/main/code/Arduino%20IDE%20code" target="_blank">/code/Arduino IDE code</a> . 
 ![](images/esp32cam_config.jpg)
 
 ## Εργασίες διασύνδεσης και τροφοδοσίας 
